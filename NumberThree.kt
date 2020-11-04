@@ -3,10 +3,10 @@ fun main() {
         if (i % 2 == 0) {
             println("$i Crucio")
 
-        } else if (i in 1..100 step 5) {
+        } else if (i % 5 == 0) {
 
             println("$i Imperio Aberto")
-        } else if (i in 1..100 step 4) {
+        } else if (i % 4 == 0) {
 
             println("$i Crucio Reducto")
         } else {
